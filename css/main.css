@@ -27,21 +27,6 @@ h2 {
   font-weight: bold;
 }
 
-/**
-* ------
-* Layout
-* ------
-*/
-
-
-
-
-/**
-* ----------
-* Components
-* ----------
-*/
-
 .header-title {
   padding: 15px;
   background-color: #fcce00a8;
@@ -75,4 +60,73 @@ h2 {
 .header-stripe--blue{
   height: 8px;
   background-color: #6236ffbd;
+}
+
+.section-title{
+  color: #231f20;
+  margin: 64px;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 1;
+  text-align: center;
+}
+
+.titre-paragraphe{
+  width: 640px;
+  height: 33px;
+  margin: 0 31px 34px 48px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.colonnes {
+display: flex;
+justify-content: space-around;
+align-items: stretch;
+}
+
+.bloc {
+flex-basis: 0;
+flex-grow: 1;
+}
+
+.bloc1{
+  background-image: url(../img/bg-yellow.svg);
+}
+
+.ordi1{
+  width: 487px;
+  height: 471px;
+  object-fit: contain;
+  display: block;
+  mix-blend-mode: darken;
+  margin-left: auto;
+}
+
+.paragraphe1 {
+  width: 640px;
+  height: 345px;
+  margin: 34px 31px 30px 48px;
+  font-size: 16px;
+  text-align: justify;
+}
+
+.bouton1{
+  width: 185px;
+  height: 48px;
+  margin: 30px 31px 22px 455px;
+  padding: 10px 36px;
+  border-radius: 15px;
+  font-weight: bold;
+  color: #fcce00;
+}
+
+.rectangle{
+  width: 185px;
+  height: 48px;
+  margin: 30px 31px 22px 455px;
+  padding: 10px 36px;
+  border-radius: 15px;
+  border: solid 4px
 }
