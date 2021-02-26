@@ -210,8 +210,41 @@ This revolutionary system doesn't just claim to duplicate the arcade experience.
 </div>
 
 <h5 class="titre-paragraphe5">Contact</h5>
-
+  <form name="myForm" action="/file.php" onsubmit="return validateForm()" method="post">
+    <table class="form-style">
+      <tr>
+        <td>
+          <label>Name</label>
+              </td>
+         <td>
+          <input type="text" name="name" id="name" placeholder="ex: Mathilde Bonhomme"/>
+              </td>
+        </tr>
+        <tr>
+          <td>
+            <label>Subject</label>
+        <select name="nom" size="1">
+        <option>billing questions
+        <option>exemple
+        <option>exemple2
+        <option>exemple3
+        </select>
+      </td>
+</tr>
+        <tr>
+          <td>
+            <label>Email</label>
+               </td>
+          <td>
+           <input type="email" name="email" id="email" placeholder="ex: bonhommemathilde@gmail.com"/>
+              </td>
+        </tr>
+        <tr>
+          <td>
+       <label for="ameliorer">Message</label>
+       <textarea name="ameliorer" id="ameliorer" placeholder="In quis luctus nibh, vel iaculis nisl. Nam lobortis turpis eget nibh mollis aliquet. Nam sodales elit id erat aliquam, sed tristique diam consequat."></textarea>
+     </td>
+</tr>
 </div>
-
 </body>
 </html>

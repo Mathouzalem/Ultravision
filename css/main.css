@@ -271,3 +271,9 @@ flex-grow: 1;
   font-weight: bold;
   text-align: center;
 }
+.form-style{
+  margin: 64px 81px 5px 222px;
+  font-size: 16px;
+  color: white;
+  text-align: left;
+}
