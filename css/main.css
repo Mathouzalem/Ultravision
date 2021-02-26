@@ -211,3 +211,11 @@ flex-grow: 1;
   border-radius: 15px;
   border: solid 4px
 }
+
+.marge{
+  margin-top: 20px;
+}
+
+.bloc4{
+  background-image: url(../img/bg-violet.svg);
+}
